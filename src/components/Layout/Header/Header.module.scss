@@ -1,0 +1,32 @@
+@import '../../../theme/Theme.module.scss';
+
+.headerStyle {
+  background-color: transparent;
+  height: 66px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLogoStyle {
+  margin: 0.7rem;
+  cursor: pointer;
+}
+
+.title {
+  color: $white !important;
+}
+
+.iconStyle {
+  color: $white;
+  cursor: pointer;
+  @include font($white, 1.5rem, _);
+}
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

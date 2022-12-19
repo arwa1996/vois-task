@@ -1,0 +1,15 @@
+.layoutBg {
+  width: 100%;
+  min-height: 884px;
+  height: 100vh;
+  background-size: cover;
+  background: url(./assets/bg.png) 0 0 no-repeat !important;
+}
+
+.contentStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: inherit;
+  padding: 1rem;
+}

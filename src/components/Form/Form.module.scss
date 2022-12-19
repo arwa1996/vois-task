@@ -1,0 +1,21 @@
+@import '../../theme/Theme.module.scss';
+
+.submitButton {
+  @include btn(2rem);
+}
+
+.formInput {
+  width: 100%;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  border-color: green;
+  padding: 0.6rem 2rem 0.7rem;
+  background: $white;
+  @include font(_, 1rem, 500);
+}

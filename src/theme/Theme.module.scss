@@ -1,0 +1,30 @@
+$primaryFont: 'Work Sans', sans-serif;
+$white: rgba(255, 255, 255, 1);
+$darkGreen: #00362e;
+$middleGreen: #004c49;
+$lightGreen: #00694a;
+$twilightBlue: #f8fdff;
+@mixin font($color, $size, $weight) {
+  font-family: $primaryFont;
+  font-size: normal;
+  font-weight: $weight;
+  line-height: 27px;
+  font-size: $size;
+  color: $color;
+}
+
+@mixin btn($marginTop) {
+  width: 100%;
+  border-radius: 10px;
+  border-color: $middleGreen;
+  background-color: $middleGreen;
+  margin-top: $marginTop;
+  &:hover {
+    border-color: $lightGreen;
+    background-color: $lightGreen;
+  }
+  &:focus {
+    border-color: $lightGreen;
+    background-color: $lightGreen;
+  }
+}
