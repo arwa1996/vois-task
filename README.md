@@ -19,11 +19,9 @@
 </li>
  </ol>
 
-## Install dependencies
+## Deployment link:
 
-```sh
-yarn
-```
+https://vois.store
 
 ## Run the application
 
@@ -44,6 +42,10 @@ yarn start
 2- Run Frontend Local
 
 In the root directory make sure to copy env_template to .env and fill the values then run:
+
+```sh
+yarn
+```
 
 ```sh
 yarn start
